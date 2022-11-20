@@ -150,7 +150,7 @@ for producto in range(0,3):
 
     TotalProducto.append(PrimerSemVentasEsperadasPesos[producto] + SegundoSemVentasEsperadasPesos[producto])
 print("-"*94)
-print(f'|  {"1.- Propuesta de Venta":^90}|')
+print(f'|  {"1.- Presupuesto de Venta":^90}|')
 for producto in range(0,3):
     print("-"*94)
     print(f'|{NombresProductos[producto]:^30}|{"1er Semestre":^30}|{"2do Semestre":^30}|')
@@ -199,7 +199,7 @@ for producto in range(0,3):
     SegundoSemUnidadesProducir.append(SegundoSemTotalUnidades[producto] - SegundoSemInventarioInicial[producto])
 
 print("-"*94)
-print(f'|  {"3.- Propuesto de produccion":^90}|')
+print(f'|  {"3.- Presupuesto de produccion":^90}|')
 for producto in range(0,3):
     print("-"*94)
     print(f'|{NombresProductos[producto]:^30}|{"1er Semestre":^30}|{"2do Semestre":^30}|')
@@ -210,7 +210,7 @@ for producto in range(0,3):
     print("-"*94)
     print(f'|{"= Total de unidades":^30}|{PrimerSemTotalUnidades[producto]:^30}|{SegundoSemTotalUnidades[producto]:^30}|')
     print("-"*94)
-    print(f'|{"- inventario final":^30}|{PrimerSemInventarioInicial[producto]:^30}|{SegundoSemInventarioInicial[producto]:^30}|')
+    print(f'|{"- inventario inicial":^30}|{PrimerSemInventarioInicial[producto]:^30}|{SegundoSemInventarioInicial[producto]:^30}|')
     print("-"*94)
     print(f'|{"= Unidades a producir":^30}|{PrimerSemUnidadesProducir[producto]:^30}|{SegundoSemUnidadesProducir[producto]:^30}|')
     print("-"*94)
